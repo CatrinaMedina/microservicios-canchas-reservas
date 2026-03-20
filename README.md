@@ -1,7 +1,5 @@
 # microservicios-canchas-reservas
 
-# Microservicios: Canchas y Reservas
-
 ## Descripción general
 
 Proyecto compuesto por dos microservicios independientes que se comunican 
