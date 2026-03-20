@@ -1,6 +1,6 @@
 # microservicios-canchas-reservas
 
-# Microservicios: Canchas y Reservas 🎾
+# Microservicios: Canchas y Reservas
 
 ## Descripción general
 
@@ -26,8 +26,8 @@ Cuando un cliente envía una solicitud POST para crear una reserva, el
 **Servicio de Reservas** consulta al **Servicio de Canchas** mediante 
 OpenFeign para verificar que la cancha exista:
 
-- Si la cancha **existe** → la reserva se guarda en la base de datos ✅
-- Si la cancha **no existe** → se retorna un error ❌
+- Si la cancha **existe** → la reserva se guarda en la base de datos 
+- Si la cancha **no existe** → se retorna un error 
 
 ### Ventajas de OpenFeign
 - Código más limpio y legible
